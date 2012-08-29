@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    position: relative;
+    margin: 10px auto;  
+	width:620px;    
+    min-height: 600px;
+	
+}
+div#ptitle
+{
+	text-align:center;
+	background-color:#00F;
+	font-size:22px;
+	color:#FFF;
+	border:#000000 2px solid;
+	
+}
+div#content
+{
+float:right;
+    margin: 0px auto;  
+    width: 400px;
+    
+}
+div#logo
+{	
+	height:292px;
+	width:200px;
+	
+	background-image:url(img/logo.png);
+	z-index:100;
+	float:left;
+	margin:10px;
+	margin-top:20px;
+}
+form
+{
+	background-color:#0FF;
+	padding:30px;
+	border:#000000 2px solid;
+}
+
+

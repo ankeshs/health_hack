@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    position: relative;
+    margin: 0px auto;  
+    width: 830px;
+    min-height: 600px;
+	font-size:1px;
+}
+div#ptitle
+{
+	text-align:center;
+	background-color:#3366FF;
+	font-size:22px;
+	color:#FFF;
+	border:#000000 2px solid;
+	
+}
+div#content
+{
+float:right;
+    margin: 0px auto;  
+    width: 600px;
+	border:#000000 2px solid;    
+}
+div#logo
+{	
+	height:292px;
+	width:200px;
+	
+	background-image:url(img/logo.png);
+	z-index:100;
+	float:left;
+	margin:10px;
+	margin-top:20px;
+}
+th
+{
+text-align:center;
+	background-color:#3399FF;
+	font-size:20px;
+	color:#FFF;
+	border:#000000 2px solid;
+}
+td
+{
+	background-color:#0FF;
+	padding:8px;
+	border:#000000 2px solid;
+	font-size:16px;
+}
+a
+{
+	background-color:#666666;
+	padding:3px;
+	border:#000000 1px solid;
+	font-size:16px;
+	color:#FFFFFF;
+}
+td a
+{
+background-color:#CCFFFF;
+color:#000000;
+border:none;
+}
